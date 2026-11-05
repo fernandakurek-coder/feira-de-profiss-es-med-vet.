@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicina Veterinária | Feira de Profissões</title>
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js para Gráficos -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-paw">开拓</i>
+                <span>MedVet</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#historico">História</a></li>
+                <li><a href="#mercado">Mercado & Dados</a></li>
+                <li><a href="#creditos">Créditos</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home / Apresentação -->
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Projeto Feira de Profissões</span>
+                    <h1>Medicina Veterinária</h1>
+                    <p class="slogan">"A arte de curar quem não sabe falar, mas ensina a amar."</p>
+                    <p class="description">
+                        A Medicina Veterinária vai muito além dos cuidados com pets. Trata-se de uma ciência fundamental para a saúde pública, produção sustentável de alimentos, conservação ambiental e bem-estar animal. O médico veterinário é o profissional capacitado para diagnosticar, tratar e prevenir doenças em animais de todos os portes, além de atuar no controle de zoonoses e inspeção de alimentos.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#historico" class="btn btn-primary">Conheça a História</a>
+                        <a href="#mercado" class="btn btn-outline">Ver Dados de Mercado</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&q=80&w=800" alt="Médica Veterinária examinando um cachorro com estetoscópio" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Fatos Históricos -->
+        <section id="historico" class="section bg-light">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Fatos Históricos</h2>
+                    <p>Origem, evolução tecnológica e a integração com a História da humanidade</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fa-solid fa-scroll"></i></div>
+                        <div class="timeline-content">
+                            <span class="date">~1900 a.C.</span>
+                            <h3>Papiro de Kahun (Antigo Egito)</h3>
+                            <p>O primeiro registro escrito documentado sobre medicina veterinária. Detalhava tratamentos para gado, cães e aves, demonstrando a importância do gado para a economia egípcia.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fa-solid fa-university"></i></div>
+                        <div class="timeline-content">
+                            <span class="date">1762</span>
+                            <h3>Primeira Escola Veterinária do Mundo</h3>
+                            <p>Fundada por Claude Bourgelat em Lyon, França. Marca o nascimento formal da profissão acadêmica moderna, focada no combate à peste bovina que devastava a Europa.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fa-solid fa-flag"></i></div>
+                        <div class="timeline-content">
+                            <span class="date">1910</span>
+                            <h3>Regulamentação no Brasil</h3>
+                            <p>Criação das primeiras escolas de Medicina Veterinária no Brasil (Exército e Escola Superior de Agricultura e Medicina Veterinária em SP/RJ), sob incentivo do Imperador D. Pedro II anos antes.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fa-solid fa-dna"></i></div>
+                        <div class="timeline-content">
+                            <span class="date">Século XXI</span>
+                            <h3>Revolução Tecnológica e Biológica</h3>
+                            <p>Integração de exames de imagem avançados (Tomografia/RMN), terapias gênicas, cirurgias robóticas e o conceito global de <strong>Saúde Única (One Health)</strong>, unindo saúde humana, animal e ambiental.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Panorama Atual e Mercado -->
+        <section id="mercado" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Panorama Atual e Mercado</h2>
+                    <p>Métricas de empregabilidade, salários e áreas em expansão</p>
+                </div>
+
+                <!-- Cards de Estatísticas -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <div class="stat-info">
+                            <span class="stat-value">R$ 4.500 - R$ 12.000+</span>
+                            <span class="stat-label">Média Salarial Inicial / Pleno</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <div class="stat-info">
+                            <span class="stat-value">+11.2%</span>
+                            <span class="stat-label">Crescimento do Setor Pet ao ano</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <div class="stat-info">
+                            <span class="stat-value">+140 mil</span>
+                            <span class="stat-label">Veterinários ativos no Brasil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gráficos -->
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3>Distribuição das Áreas de Atuação</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="areasChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <h3>Crescimento da Demanda no Mercado (Projeção)</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="trendChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé / Créditos -->
+    <footer id="creditos" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Feira de Profissões 2026</h3>
+                <p><strong>Estudante:</strong> [Seu Nome Completo]</p>
+                <p><strong>Turma / Ano:</strong> [Sua Turma, ex: 3º Ano B]</p>
+                <p><strong>Disciplina:</strong> Projeto Interdisciplinar</p>
+            </div>
+            <div class="footer-links">
+                <h4>Links do Projeto</h4>
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-github"></i> Repositório GitHub</a></li>
+                    <li><a href="#" target="_blank"><i class="fa-solid fa-file-pdf"></i> Documentação do Projeto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Registro Oficial do Stand - Medicina Veterinária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
